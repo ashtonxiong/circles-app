@@ -24,13 +24,3 @@ Features
 2) Create a new Circle that you can start if it is anything interesting or personal, and make new users to see if these changes persist via MongoDB
 >
 
-Collaboration and libraries
----------------------------
-<
-This project took a lot of inspiration from assignment 3.1 and assignment 3.2. I recycled the files for apirequest, api/index.js, user.js, etc...
-I hope that this does not deter from the overall originality and functionality of my project.>
-
-Anything else?
--------------
-Thank you Michael for being an amazing prof and lecturer for this class. I learned a lot about full-stack development and plan to use
-these skills in personal projects and other web-development classes.>
