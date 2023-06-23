@@ -1,0 +1,35 @@
+CS193X Final Project Milestone
+==============================
+
+Project Title: Circles
+Your Name: <Ashton Xiong>
+Your SUNetID: <axiong12>
+
+Overview
+--------
+I am currently still brainstorming Information. I apologize for a delayed submission. I am trying to better uderstand 
+how I can implement functionality and create new users on this website
+
+Project Changes
+---------------
+In my initial Project design I was going to implement "circles/groups" of friends taht you can write notes too but realizing this may be too complicated.
+I am thinking about changnign this topic to create a more broader and easierer concept, so instead of creating as many groups as possible
+limit to 3-4, say perhaps the year you graduate.
+
+Implementation Details
+----------------------
+I am thinking about making a login page for the webpage. This will need to be done in the api and making sure a user exist and if the session is currently logged in.
+Additionally I need to see how I can keep track of the frontend and see if a user is currently logged in
+
+External libraries and code
+---------------------------
+Unsure of anny externl libraries, may implement other css libraries to make webpage more appealing
+
+Collaboration and resources
+---------------------------
+Will look at github repos (will cite if i take insperation from them) and other sources as well as a project from my CS142 project.
+Anything else?
+--------------
+
+Thank you Michael for being an amazing prof and lecturer for this class. I learned a lot about full-stack development and plan to use
+these skills in personal projects and other web-development classes.

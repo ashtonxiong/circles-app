@@ -1,0 +1,27 @@
+// TODO: If you need to initialize your database with some documents, uncomment/adjust these lines and add insert statements.
+
+
+db = connect("cs193x_assign3");
+db.dropDatabase();
+db.users.insertOne({ id: "axiong12", name: "Ashton", following: ["2025"] });
+db.posts.insertOne({ userId: "axiong12", time: new Date(), text: "Hey class of 2025", class: "2025" });
+db.posts.insertOne({ userId: "axiong12", time: new Date(), text: "Free Smoothies at TAP", class: "co '2025" });
+db.posts.insertOne({ userId: "axiong12", time: new Date(), text: "This is a cool circle", class: "co '2025" });
+db.posts.insertOne({ userId: "axiong12", time: new Date(), text: "Who's on campus this summer", class: "co '2025" });
+
+db.class.insertOne({ circle: "co '2024", posts: [], users: ["axiong12"]})
+db.class.insertOne({ circle: "co '2025", posts: [{userId: "axiong12", text: "Hey class of 2025" }, 
+{userId: "axiong12", text: "This is a cool Circle" },
+{userId: "axiong12", text: "Who's on campus this Summer" },
+{userId: "axiong12", text: "Free Smoothies at TAP" } ], users: ["axiong12"]})
+db.class.insertOne({ circle: "co '2026", posts: [], users: ["axiong12"]})
+db.class.insertOne({ circle: "co '2027", posts: [], users: ["axiong12"]})
+
+db.class.insertOne({ circle: "CS193x", posts: [
+    {userId: "axiong12", text: "CS193X Was Awesome! I Wish Michael taught Every Class!" },
+    {userId: "axiong12", text: "I loved this class so much!" },
+    {userId: "axiong12", text: "Hi CS193X Circle!" },
+], users: ["axiong12"]})
+db.posts.insertOne({ userId: "axiong12", time: new Date(), text: "CS193X Was Awesome! I Wish Michael taught Every Class!", class: "CS193x" });
+db.posts.insertOne({ userId: "axiong12", time: new Date(), text: "I loved this class so much!", class: "CS193x" });
+db.posts.insertOne({ userId: "axiong12", time: new Date(), text: "Hi CS193X Circle!", class: "CS193x" });
